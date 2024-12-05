@@ -1,0 +1,63 @@
+/* Ümumi konteyner */
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Başlıq */
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Axtarış inputu */
+  .search-input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Şöbə seçimi */
+  .select-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* İşçilər siyahısı */
+  .employee-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Hər bir işçi üçün stil */
+  .employee-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s;
+  }
+  
+  .employee-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-item h3 {
+    margin: 0 0 10px;
+    color: #007bff;
+  }
+  
+  .employee-item p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
